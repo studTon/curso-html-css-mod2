@@ -1,3 +1,4 @@
+﻿Aula 0
 parâmetros devem ser seguidos para trabalhar com cores.
 Cores influenciam bastante a mente das pessoas.
 Harmonia visual de um site define a opção de acesso.
@@ -16,3 +17,9 @@ Harmonia visual de um site define a opção de acesso.
     Ouro: preciosidade, riqueza, extravagância, calor, riqueza, opulência, prosperidade, grandeza
 	
 	https://www.quicksprout.com/2014/01/24/how-colors-affect-conversion-rate/
+
+Aula 1
+
+Emoções de cores: Um site com cores harmonizadas influenciam instintivamente o ser humano escolher. A cor azul, por exemplo, é muito querida pelas pessoas.
+As cores são essenciais para criar a identidade visual do website. Essa identidade visual deve estar de acordo com o produto ou serviço oferecido pelo dono do website
+Cores quentes est]ao associadas a calor e proximidade enquanto cores frias geram a sensação de tranquilidade e frescor.
