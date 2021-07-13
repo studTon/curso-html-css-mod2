@@ -9,7 +9,8 @@ div{
 	background-color: rgb(178,45,36);
 }
 h1{
-	color: #A2BB50;
+	color: #02FFB8;
+	background-image: linear-gradient(0deg, orange, yellow);
 }
 
 p{
