@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+.A{
+	background-color: crimson;
+	color: white;
+}
+
+.B{
+	background-color: #dc143c;
+	color: #ffffff;
+}
+
+.C{
+	background-color: rgb(220, 20, 60);
+	color: rgb(255,255,255);
+}
+
+.D{
+	background-color: hsl(348, 83%, 47%);
+	color: hsl(0,0%,100%);
+}
+
+.E{
+	background-color: #dc143cAF;
+	color: color: #ffffff00;
+}
