@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 *{
-	font-family: "Helvetica";
+	font-family: "Helvetica"; /*A fonte Helvetica é sans-serif*/
 }
 
 body{
