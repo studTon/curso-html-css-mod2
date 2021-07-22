@@ -4,12 +4,19 @@ h1{
 	font-family: "Georgia", serif;/*A ordem em que são digitadas as fontes definem o que vai aparecer dependendo do dispositivo*/
 	color: #19647e;
 	text-align: center;
+	font-size: 2em;
+	/* 
+	Tamanho de fonte:
+	Absolutos:px, pt, pc, cm, mm, in
+	Relativos:em, rem
+*/
 }
 
 p{
 	font-family: "Helvetica", "Arial";
 	color: #243010;
 	text-align: justify;
+	font-size: 1em;
 }
 
 main{
