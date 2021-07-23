@@ -1,0 +1,35 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;200;300;400;500;600;700;800;900&display=swap');
+h1{
+	font-family: "Georgia", serif;/*A ordem em que são digitadas as fontes definem o que vai aparecer dependendo do dispositivo*/
+	color: #19647e;
+	text-align: center;
+	font-size: 2em;
+	/* 
+	Tamanho de fonte:
+	Absolutos:px, pt, pc, cm, mm, in
+	Relativos:em, rem
+*/
+}
+
+p{
+	/* 
+	font-family: Encode Sans SC, sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1em;
+*/
+	font: normal normal 1em "Encode Sans SC", sans-serif;
+	color: #243010;
+	text-align: justify;
+	font-size: 1em;
+}
+
+main{
+	width: 80%;
+	margin: auto;
+	background-color: #efecca;
+	padding: 30px;
+	box-shadow: 2px 2px 5px black;
+	border-radius: 8px;
+}
