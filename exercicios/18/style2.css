@@ -1,0 +1,30 @@
+@charset "utf-8";
+@font-face{
+	font-family:"London";
+	src: url('fonts/OldLondon.ttf') format('truetype');
+	font-style:normal;
+	font-weight: bold;
+}
+h1{
+	font-family: "London", serif;
+	color: #19647e;
+	text-align: center;
+	font-size: 2em;
+	
+}
+
+p{
+	font: normal normal 1em "Encode Sans SC", sans-serif;
+	color: #243010;
+	text-align: justify;
+	font-size: 1em;
+}
+
+main{
+	width: 80%;
+	margin: auto;
+	background-color: #efecca;
+	padding: 30px;
+	box-shadow: 2px 2px 5px black;
+	border-radius: 8px;
+}
