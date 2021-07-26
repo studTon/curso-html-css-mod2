@@ -12,6 +12,11 @@ h1{
 */
 }
 
+h2{
+	font-family: "Georgia", serif;
+	text-align: right;
+	color: #243010;
+}
 p{
 	font-family: "Helvetica", "Arial";
 	color: #243010;
