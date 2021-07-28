@@ -19,3 +19,7 @@ h1#principal{
 	margin: auto;
 	padding: 10px;
 }
+
+.fixed{
+	text-decoration: line-through;
+}
