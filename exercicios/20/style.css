@@ -1,23 +1,32 @@
 @charset "utf-8";
+body{
+	font-family: sans-serif;
+}
 
-div{
+.bloco{
 	display: inline-block;
 	width: 200px;
 	height: 200px;
 	background-color: aquamarine;
 	text-align: center;
 	vertical-align: middle;
+	border: 2px solid black;
 }
 
-div:hover{
+.bloco:hover{
+	background-color: cornflowerblue;
+	color: antiquewhite;
+}
+
+.featured:hover{
 	color: darkred;
 	background-color: darkorange;
 }
 
-div > p{
+.featured > p{
 	display: none;
 }
 
-div:hover > p{
+.featured:hover > p{
 	display: block;
 }
