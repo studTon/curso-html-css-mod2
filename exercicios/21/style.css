@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+h1{
+	display: block;
+	background-color: lightcyan;
+	border: 5px solid darkgreen;
+	color: black;
+	margin: auto;
+	width: 300px;
+	height: 300px;
+}
+
+a{
+	color: black;
+	background-color: burlywood;
+	border: 1px solid black;
+}
