@@ -3,11 +3,37 @@
 h1{
 	display: block;
 	background-color: lightcyan;
-	border: 5px solid darkgreen;
+	
 	color: black;
-	margin: auto;
+	
 	width: 300px;
 	height: 300px;
+	
+	border: 5px solid darkgreen;
+	
+	/*
+	border-top: 5px;
+	border-right: 5px;
+	border-bottom: 5px;
+	border-left: 5px;
+	*/
+	
+	margin: auto;
+	/*
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	*/
+	
+	outline: 2px dashed cyan;
+	/*
+	outline-top: 5px;
+	outline-right: 5px;
+	outline-bottom: 5px;
+	outline-left: 5px;
+	
+	*/
 }
 
 a{
