@@ -11,6 +11,7 @@ header, footer {
 	width: 600px;
 	margin: auto;
 	border: 5px solid black;
+	border-radius: 15px 0px;
 }
 
 article{
@@ -24,6 +25,11 @@ h1 {
 nav{
 	width: 90%;
 	margin: auto;
+	box-shadow: 1px 5px 8px gray;
+	/* 
+    box-shadow: inset 1px 1px 8px gray; 
+	Sombras internas
+*/
 }
 
 a {
@@ -38,4 +44,5 @@ main {
 	margin: 50px auto;
 	padding: 30px;
 	border: 5px solid black;
+	border-radius: 20px 0px;
 }
