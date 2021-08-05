@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Exemplo aplicando JavaScript</title>
+	<script>
+		function criarParagrafo() {
+			let para = document.createElement('p');
+			para.textContent = 'Você clicou no botão!';
+			document.body.appendChild(para);
+		}
+		const botoes = document.querySelectorAll('button');
+		
+		for(var i = 0; i < botoes.length ; i++) {
+			botoes[i].addEventListener('click', criarParagrafo);
+		}
+	</script>
+</head>
+<body>
+  <button>Clique em mim</button>
+</body>
+</html>
