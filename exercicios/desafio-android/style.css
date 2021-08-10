@@ -1,0 +1,15 @@
+@charset "utf-8";
+@font-face{
+	font-family:"idroid";
+}
+body{
+	background-color: #89CDA5;
+}
+
+header{
+	background-image: linear-gradient(to bottom, #175131, #5BBE7D);
+}
+
+header > h1{
+	font-family: ;
+}
