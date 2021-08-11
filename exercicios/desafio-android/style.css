@@ -12,19 +12,21 @@
 	font-weight: normal;
 }
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-body{
-	background-color: black;
-
-	
-}
 
 header{
 	background-image: linear-gradient(to bottom, #175131, #5BBE7D);
 	margin: 0;
+	color: white;
 }
 
 header > h1{
 	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+header > p {
+	text-align: center;
 }
 
 ul{
@@ -32,19 +34,35 @@ ul{
 	font-family: sans-serif;
 }
 
-ul > li{
+header > nav > ul > li{
 	display: inline-block;
+	text-indent: 0;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding: 5px;
+	border-radius: 10px
+}
+
+header > nav > ul > li:hover{
+	background-color: #5BBE7D;
 }
 h2{
 	font-family: "idroid";
+	color: #175131;
 }
 
 h3{
 	font-family: "idroid";
+	color: #175131;
+	background-image: linear-gradient(to right, #89CDA5, #ffffff);
 }
 
 h4{
-	font-family: "idroid";
+	background-color: #36A265;
+	font-family: sans-serif;
+	color: white;
+	border-radius: 10px 10px 0px 0px;
+	padding: 5px;
 }
 
 article{
@@ -52,6 +70,8 @@ article{
 	width: 75%;
 	margin: 0 20% 0 20%;
 	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 6px #175131;
 }
 
 main{
@@ -62,9 +82,38 @@ main{
 p{
 	font-family: sans-serif;
 	text-align: justify;
+	text-indent: 50px;
+}
+
+.videoclip{
+	background-color: #175131;
+	padding: 20px;
+}
+
+.videoclip > iframe {
+	display: block;
+	margin: auto;
+	width: 560;
 }
 
 .inner{
 	background-color: #89CDA5;
-	padding: 10px;
+	padding: 0px 0px 10px 0px;
+	border-radius: 10px;
+}
+
+.inner > ul{
+	list-style: none;
+}
+
+.inner > ul > li:before{
+	content: '✓';
+}
+
+footer{
+	font-family: sans-serif;
+	background-color: #175131;
+	color: white;
+	text-align: center;
+	padding: 5px;
 }
