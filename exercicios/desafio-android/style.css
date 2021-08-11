@@ -1,15 +1,70 @@
 @charset "utf-8";
 @font-face{
 	font-family:"idroid";
+	src: url('fontes/idroid.otf') format('opentype');
+	font-style: normal;
+	font-weight: normal;
 }
+@font-face{
+	font-family: "Oswald";
+	src: url('fontes/Oswald-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body{
-	background-color: #89CDA5;
+	background-color: black;
+
+	
 }
 
 header{
 	background-image: linear-gradient(to bottom, #175131, #5BBE7D);
+	margin: 0;
 }
 
 header > h1{
-	font-family: ;
+	font-family: 'Oswald', sans-serif;
+}
+
+ul{
+	margin: 0;
+	font-family: sans-serif;
+}
+
+ul > li{
+	display: inline-block;
+}
+h2{
+	font-family: "idroid";
+}
+
+h3{
+	font-family: "idroid";
+}
+
+h4{
+	font-family: "idroid";
+}
+
+article{
+	background-color: #fafcfb;
+	width: 75%;
+	margin: 0 20% 0 20%;
+	padding: 10px;
+}
+
+main{
+	background-color: #89cda5;
+	margin: 0;
+}
+
+p{
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+.inner{
+	background-color: #89CDA5;
+	padding: 10px;
 }
