@@ -46,6 +46,12 @@ header > nav > ul > li{
 header > nav > ul > li:hover{
 	background-color: #5BBE7D;
 }
+
+header > nav > ul > li > a{
+	text-decoration: none;
+	color: white;
+}
+
 h2{
 	font-family: "idroid";
 	color: #175131;
@@ -85,6 +91,12 @@ p{
 	text-indent: 50px;
 }
 
+p > a{
+	text-decoration: none;
+	color: black;
+	background-color: #89cda5;
+}
+
 .videoclip{
 	background-color: #175131;
 	padding: 20px;
@@ -104,10 +116,14 @@ p{
 
 .inner > ul{
 	list-style: none;
+	font-weight: bold;
+	display: inline-block;
 }
 
 .inner > ul > li:before{
 	content: '✓';
+	font-weight: bold;
+	display: inline;
 }
 
 footer{
