@@ -129,19 +129,19 @@ p > a{
 	height: 315;
 }
 
-.inner{
+aside{
 	background-color: #89CDA5;
 	padding: 0px 0px 10px 0px;
 	border-radius: 10px;
 }
 
-.inner > ul{
+aside > ul{
 	list-style: none;
 	font-weight: bold;
 	display: inline-block;
 }
 
-.inner > ul > li:before{
+aside > ul > li:before{
 	content: '✓';
 	font-weight: bold;
 	display: inline;
@@ -158,4 +158,9 @@ footer{
 	color: white;
 	text-align: center;
 	padding: 5px;
+}
+
+footer > strong > a{
+	text-decoration: none;
+	color: white;
 }
