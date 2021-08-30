@@ -19,6 +19,7 @@
 	--font-featured: 'Bebas Neue', cursive;
 	--color-strong: #175131;
 	--color-light: #5BBE7D;
+	--color-bg-light: #89cda5;
 }
 
 header{
@@ -97,12 +98,14 @@ article{
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 6px var(--color-strong);
+	margin-bottom: 20px;
 }
 
 main{
-	background-color: #89cda5;
+	background-color: var(--color-bg-light);
 	margin: auto;
-	width: 100%
+	min-width: 300px;
+	max-width: 1000px;	
 }
 
 p{
@@ -114,7 +117,7 @@ p{
 p > a{
 	text-decoration: none;
 	color: black;
-	background-color: #89cda5;
+	background-color: var(--color-bg-light);
 }
 
 .videoclip{
@@ -132,7 +135,7 @@ p > a{
 }
 
 aside{
-	background-color: #89CDA5;
+	background-color: var(--color-bg-light);
 	padding: 0px 0px 10px 0px;
 	border-radius: 10px;
 }
