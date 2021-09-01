@@ -26,9 +26,11 @@
 	--color-light: #5BBE7D;
 	--color-bg-light: #89cda5;
 }
-
+body{
+	background-color: var(--color-bg-light);
+}
 header{
-	background-image: linear-gradient(to bottom, var(--color-strong), var(--color-light));
+	background-image: linear-gradient(to top, var(--color-strong), var(--color-light));
 	margin: 0;
 	color: white;
 	padding-top: 40px;
@@ -40,7 +42,7 @@ nav{
 	padding: 10px;
 }
 header > h1{
-	font-family: var(--font-featured);
+	font-family: 'Oswald';
 	color: white;
 	text-align: center;
 }
@@ -93,6 +95,10 @@ h4{
 	padding: 5px;
 }
 
+.bugdroid{
+	max-width: 300px;
+}
+
 img{
 	height: 100%;
 	align-content: center;
@@ -122,12 +128,21 @@ p{
 	font-family: sans-serif;
 	text-align: justify;
 	text-indent: 50px;
+	line-height: 1.5em;
 }
 
 p > a{
 	text-decoration: none;
-	color: black;
+	color: var(--color-strong);
 	background-color: var(--color-bg-light);
+	padding: 0px 3px 0px 3px;
+}
+
+p > strong {
+	color: black;
+	font-weight: bolder;
+	background-color: var(--color-bg-light);
+	padding: 0px 3px 0px 3px;
 }
 
 .videoclip{
