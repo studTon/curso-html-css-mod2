@@ -11,8 +11,13 @@
 	font-style: normal;
 	font-weight: normal;
 }
+@font-face{
+	font-family: "Bebas Neue";
+	src: url('fontes/BebasNeue-Regular') format('truetype');
+	font-style: normal;
+	font-weight: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 :root{
@@ -26,10 +31,13 @@ header{
 	background-image: linear-gradient(to bottom, var(--color-strong), var(--color-light));
 	margin: 0;
 	color: white;
+	padding-top: 40px;
 }
 
 nav{
+	background-color: var(--color-strong); 
 	margin: auto;
+	padding: 10px;
 }
 header > h1{
 	font-family: var(--font-featured);
@@ -57,6 +65,8 @@ header > nav > ul > li{
 
 header > nav > ul > li:hover{
 	background-color: var(--color-light);
+	color: black;
+	transition-duration: 0.5s;
 }
 
 header > nav > ul > li > a{
