@@ -137,7 +137,9 @@ p > a{
 	background-color: var(--color-bg-light);
 	padding: 0px 3px 0px 3px;
 }
-
+a.externo::after {
+	content: '\00A0\🔗';
+}
 p > strong {
 	color: black;
 	font-weight: bolder;
@@ -166,9 +168,13 @@ aside{
 }
 
 aside > ul{
+	list-style-type: '\2714\00A0\00A0';
+	list-style-position: inside;
+	columns: 2;
 	list-style: none;
 	font-weight: bold;
 	display: inline-block;
+	
 }
 
 aside > ul > li:before{
@@ -188,6 +194,7 @@ footer{
 	color: white;
 	text-align: center;
 	padding: 5px;
+	font-size: 0.8em;
 }
 
 footer > strong > a{
