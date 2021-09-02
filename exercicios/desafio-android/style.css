@@ -45,6 +45,7 @@ header > h1{
 	font-family: 'Oswald';
 	color: white;
 	text-align: center;
+	font-weight: normal;
 }
 
 header > p {
@@ -79,12 +80,14 @@ header > nav > ul > li > a{
 h2{
 	font-family: "idroid";
 	color: var(--color-strong);
+	font-weight: normal;
 }
 
 h3{
 	font-family: "idroid";
 	color: var(--color-strong);
 	background-image: linear-gradient(to right, #89CDA5, #ffffff);
+	font-weight: normal;
 }
 
 h4{
@@ -99,8 +102,14 @@ h4{
 	max-width: 300px;
 }
 
+picture{
+	align-content: center;
+	width: 90%;
+	height:auto;
+}
+
 img{
-	height: 100%;
+	width: 100%;
 	align-content: center;
 	display: block;
 	margin: auto;
@@ -157,7 +166,7 @@ p > strong {
 .videoclip > iframe {
 	display: block;
 	margin: auto;
-	width: 100%;
+	width: 73.5%;
 	height: 315;
 }
 
